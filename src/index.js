@@ -27,7 +27,13 @@
 // val4.address = 'hiroshima';
 // console.log(val4);
 
-const val5 = ["dog", "cat"];
-val5[0] = "bard";
-val5.push("monkey");
-console.log(val5);
+// const val5 = ["dog", "cat"];
+// val5[0] = "bard";
+// val5.push("monkey");
+// console.log(val5);
+
+const name = "ttt";
+const age = 24;
+
+const message = `名前は${name}。${age}歳です。`;
+console.log(message);
