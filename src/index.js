@@ -164,7 +164,32 @@ const nameArr = ["tanaka", "yamada", "saitou"];
 // const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください'
 // console.log(formattedNum);
 
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています" : "許容範囲内です";
-};
-console.log(checkSum(40, 790));
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています" : "許容範囲内です";
+// };
+// console.log(checkSum(40, 790));
+
+//論理演算子
+// && ||
+// const flag1 = true;
+// const flag2 = true;
+
+// if(flag1 || flag2){
+//   console.log('1か2はtrueになります');
+// }
+// if(flag1 && flag2){
+//   console.log('1も2もtrueになります');
+// }
+
+// ||は左側がfalseとなるとき右を返す
+//(左側がtureなら左側を返す)
+//const num = null; //JavaScriptではnullはfalseを返す
+// const fee = num || '金額未設定です';
+
+// console.log(fee);
+
+//&& は左側がtrueなら右側を返す
+// falseなら左側を返す
+// const num2 = null;
+// const fee2 = num2 && '何か設定されました';
+// console.log(fee2);
